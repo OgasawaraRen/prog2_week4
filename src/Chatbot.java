@@ -13,4 +13,12 @@ public class Chatbot {
     public void greeting() {
         System.out.println("はじめまして" + this.name + "です。よろ！");
     }
+
+    public String getName() {
+        return this.name;
+    }
+
+    public void setName(String _name) {
+        this.name = _name;
+    }
 }
